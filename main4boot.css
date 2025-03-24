@@ -1,0 +1,231 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* Ajout d'une couleur de fond */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centre le contenu du body */
+    padding-left: 200px;
+    /* Marge à gauche */
+    padding-right: 200px;
+    /* Marge à droite */
+}
+
+
+
+/* Conteneur principal centré */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    /* Limite la largeur du contenu */
+    margin-left: auto;
+    /* Centrer horizontalement */
+    margin-right: auto;
+    /* Centrer horizontalement */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Style pour les images */
+.img1 {
+    width: 200%;
+    /* Rendre l'image responsive */
+    max-width: 500px;
+    /* Limite la taille de l'image */
+    margin: 0 auto;
+    /* Centre l'image */
+
+}
+
+.img2 {
+    width: 100%;
+    /* Rendre l'image responsive */
+    max-width: 250px;
+    /* Limite la taille de l'image */
+    padding: 5px;
+    margin-left: 0;
+    margin-right: auto;
+    /* Centre l'image */
+    display: block;
+}
+
+.img3 {
+    width: 100%;
+    /* Rendre l'image responsive */
+    max-width: 250px;
+    /* Limite la taille de l'image */
+    margin: 0 auto;
+    /* Centre l'image */
+    margin-bottom: 100px;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+
+
+/* Bloc à gauche */
+.left-block {
+    border-right: 1px solid #333;
+    /* Ligne sur le côté droit */
+    padding-right: 20px;
+    /* Espacement entre le contenu et la ligne */
+    margin-right: 20px;
+    /* Espacement entre la ligne et les autres blocs */
+}
+
+
+/* Ajouter une bordure en bas du bloc droit */
+.right-block {
+    border-bottom: 1px solid #333;
+    /* Ligne fine de séparation */
+    padding-bottom: 20px;
+    /* Espacement après la ligne */
+    margin-bottom: 20px;
+    /* Espacement après la bordure */
+}
+
+/* Style pour le texte */
+.police1 {
+
+    font-size: 60px;
+    font-weight: bold;
+    text-align: justify;
+    /* Centrer le texte */
+}
+
+.police2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.police3 {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    /* Centrer le texte */
+}
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.banniere1 {
+    color: #333;
+
+
+
+}
+
+.imglogo {
+    width: 300px;
+    max-width: 300px;
+    /* Limite la largeur maximale du logo */
+    height: auto;
+    /* Garde les proportions du logo */
+    float: center;
+
+
+}
+
+.banniere {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+    /* Décale le texte vers le bas */
+
+}
+
+.banniere p {
+    border-top: 1px solid #000;
+    /* Ligne en haut du paragraphe */
+    border-bottom: 1px solid #000;
+    /* Ligne en bas du paragraphe */
+    padding: 10px;
+    /* Espacement interne autour du texte */
+    word-spacing: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    /* FAIT MONTER LE HEADER */
+
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    /* Utilise Flexbox pour les mettre sur la même ligne */
+    justify-content: space-around;
+    /* Espacement égal entre les éléments */
+    width: 100%;
+    /* Assure que le ul occupe toute la largeur */
+}
+
+header nav ul li {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    /* Chaque élément prend toute la largeur disponible */
+}
+
+/* CSS personnalisé pour changer la couleur des liens dans le header */
+header nav ul li a {
+    color: white !important;
+    /* Force la couleur du texte à être blanche */
+}
+
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 0;
+}
+
+header h1 {
+    margin-bottom: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    /* Ajuster le padding pour donner de l'espace sans affecter la taille du footer */
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 120%;
+    /* Augmenter la taille du texte sans affecter le rectangle */
+    max-width: 100%;
+    /* Utiliser une largeur max appropriée */
+    margin: 0 auto;
+    /* Centrer le texte dans son parent */
+    word-spacing: 10px;
+
+}
